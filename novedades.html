@@ -1,92 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>novedades</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-
-		header {
-			background-color: #4CAF50;
-			color: white;
-			text-align: center;
-			padding: 20px;
-		}
-
-		h1 {
-			margin: 0;
-			font-size: 36px;
-			font-weight: bold;
-		}
-
-		main {
-			margin: 20px;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-		}
-
-		article {
-			width: 30%;
-			margin-bottom: 20px;
-			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-			padding: 10px;
-			text-align: center;
-		}
-
-		article img {
-			max-width: 100%;
-			height: auto;
-		}
-
-		h2 {
-			margin: 0;
-			font-size: 24px;
-			font-weight: bold;
-			margin-bottom: 10px;
-		}
-
-		p {
-			margin: 0;
-			font-size: 18px;
-			line-height: 1.5;
-		}
-	</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>novedades</title>
+    <link rel="stylesheet" href="style4.css">
 </head>
+
 <body>
-	<header>
-		<h1>Los beneficios de las frutas y verduras para la salud</h1>
-	</header>
-	<main>
-		<article>
-			<img src="manzana.jpg" alt="Manzana">
-			<h2>Manzanas</h2>
-			<p>Las manzanas son ricas en fibra y antioxidantes, lo que ayuda a reducir el riesgo de enfermedades cardíacas y a mantener un sistema digestivo saludable.</p>
-		</article>
-		<article>
-			<img src="brocoli.jpg" alt="Brócoli">
-			<h2>Brócoli</h2>
-			<p>El brócoli es rico en vitaminas y minerales, lo que ayuda a prevenir enfermedades y a fortalecer el sistema inmunológico. También contiene compuestos que ayudan a prevenir el cáncer.</p>
-		</article>
-		<article>
-			<img src="fresa.jpg" alt="Fresas">
-			<h2>Fresas</h2>
-			<p>Las fresas son una excelente fuente de vitamina C y antioxidantes, lo que ayuda a prevenir enfermedades y a mantener una piel saludable.</p>
-		</article>
-		<article>
-			<img src="zanahoria.jpg" alt="Zanahorias">
-			<h2>Zanahorias</h2>
-			<p>Las zanahorias son ricas en vitamina A y antioxidantes, lo que ayuda a mantener una buena visión y a prevenir enfermedades.</p>
-		</article>
-		<article>
-			<img src="uvas.jpg" alt="Uvas">
-			<h2>Uvas</h2>
-			<p>Las uvas son ricas en antioxidantes y compuestos que ayudan a prevenir enfermedades cardiovasculares y a mantener una buena salud del corazón.</p>
-		
+    <header>
+        <figure>
+            <img src="images/logo.webp" alt="logo" title="logo" />
+        </figure>
+        <h1>Beneficios de las frutas y verduras para la salud</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="/index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="/quienesSomos.html">¿Quienes Somos?</a>
+            </li>
+            <li>
+                <a href="/contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="novedades.html">Novedades</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <figure>
+                <img src="" alt="Manzana" title="Manzanas">
+                <figcaption>Manzanas</figcaption>
+            </figure>
+            <h3>Manzanas</h3>
+            <p>Las manzanas son ricas en fibra y antioxidantes, lo que ayuda a reducir el riesgo de enfermedades
+                cardíacas y a mantener un sistema digestivo saludable.</p>
+        </article>
+        <article>
+            <figure>
+                <img src="brocoli.jpg" alt="Brócoli" title="Brócoli">
+                <figcaption>Brócoli</figcaption>
+            </figure>
+            <h2>Brócoli</h2>
+            <p>El brócoli es rico en vitaminas y minerales, lo que ayuda a prevenir enfermedades y a fortalecer el
+                sistema inmunológico. También contiene compuestos que ayudan a prevenir el cáncer.</p>
+        </article>
+        <article>
+            <figure>
+                <img src="" alt="Fresas" title="Fresas">
+                <figcaption>Fresas</figcaption>
+            </figure>
+            <h2>Fresas</h2>
+            <p>Las fresas son una excelente fuente de vitamina C y antioxidantes, lo que ayuda a prevenir enfermedades y
+                a mantener una piel saludable.</p>
+        </article>
+        <article>
+            <figure>
+                <img src="" alt="Zanahorias" title="Zanahorias">
+                <figcaption>Zanahorias</figcaption>
+            </figure>
+            <h2>Zanahorias</h2>
+            <p>Las zanahorias son ricas en vitamina A y antioxidantes, lo que ayuda a mantener una buena visión y a
+                prevenir enfermedades.</p>
+        </article>
+    </main>
+    <footer>
+        <article>
+            <section class="empresa">
+                <p>CCL FRUIT Y VEGETALES</p>
+                <p>Para más información puede enviarnos un email:
+                    <a href="mailto:gcaribe14@hotmail.com">Aquí</a>
+                </p>
+                <p>Si necesitas ayuda, llámanos al <br/> número de teléfono:
+                    <a href="tel:+34640856854" tel="+34640856854">+34 640856854</a>
+                </p>
+                <p>&copy; 2023 Rodolfo frutas y verduras </p>
+            </section>
+            <section class="direction">
+                <p>C/ La clota No 12</p>
+                <p>08290 Cerdanyola del Vallés</p>
+                <p>Barcelona</p>
+            </section>
+            <section class="galeria">
+                <a href="https://www.facebook.com/rodolfo.espinosadiaz.9" target="_blank">
+                    <img src="images/fblogo.png" title="Facebbok" alt="logo Facebbok" />
+                </a>
+                <a href="https://www.instagram.com/rodolfofyto/" target="_blank">
+                    <img src="images/logoinst.png" title="Instagram" alt="logo Instagram" />
+                </a>
+                <a href="" target="_blank">
+                    <img src="images/twlogo.png" title="Twiter" alt="logo Twiter" />
+                </a>
+                <a href="https://www.linkedin.com/in/rodolfo-espinosa-a8b582193/" target="_blank">
+                    <img src="images/linkedlogo.png" title="linkedl" alt="logo linkedl" />
+                </a>
+            </section>
+        </article>
+    </footer>
+</body>
 
-
-
-Regenerate response
+</html>

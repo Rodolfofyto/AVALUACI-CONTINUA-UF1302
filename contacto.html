@@ -1,70 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>contacto</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-		}
-
-		header {
-			background-color: #4CAF50;
-			color: white;
-			text-align: center;
-			padding: 20px;
-		}
-
-		h1 {
-			margin: 0;
-			font-size: 36px;
-			font-weight: bold;
-		}
-
-		main {
-			margin: 20px;
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-		}
-
-		article {
-			width: 30%;
-			margin-bottom: 20px;
-			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-			padding: 10px;
-			text-align: center;
-		}
-
-		article img {
-			max-width: 100%;
-			height: auto;
-		}
-
-		h2 {
-			margin: 0;
-			font-size: 24px;
-			font-weight: bold;
-			margin-bottom: 10px;
-		}
-
-		p {
-			margin: 0;
-			font-size: 18px;
-			line-height: 1.5;
-		}
-	</style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style3.css">
 </head>
+
 <body>
-	<header>
-		<h1>Los beneficios de las frutas y verduras para la salud</h1>
-		<p>¡Bienvenidos al sitio web que te ayudará a conocer todo sobre las frutas y verduras y cómo incluirlas en tu dieta diaria para tener una vida más saludable!</p>
-		<p>En este sitio, encontrarás información detallada sobre los distintos tipos de frutas y verduras, sus beneficios para la salud, recetas saludables y mucho más.</p>
-		<p>Nuestra misión es fomentar hábitos saludables y educar a las personas sobre la importancia de incorporar frutas y verduras en su dieta diaria para prevenir enfermedades y mejorar la calidad de vida.</p>
-	</header>
-	<main>
-		<!-- Contenido de la página -->
-	</main>
+    <header>
+        <figure>
+            <img src="images/logo.webp" alt="logo" title="logo" />
+        </figure>
+        <h1>Beneficios de las frutas y verduras para la salud</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="/index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="/quienesSomos.html">¿Quienes Somos?</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+            <li>
+                <a href="/novedades.html">Novedades</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        <form>
+            <label for="nombre" class="colocar_nombre">Nombre</label>
+            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                placeholder="Escribe tu nombre" />
+            <br />
+
+            <label for="email" class="colocar_email">Email</label>
+            <input type="email" name="introducir_email" id="email" required="obligatorio"
+                placeholder="Escribe tu Email" />
+            <br />
+
+            <label for="telefone" class="colocar_telefono">Teléfono</label>
+            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" />
+            <br />
+
+            <label for="asunto" class="colocar_asunto">Asunto</label>
+            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                placeholder="Escribe un asunto" />
+            <br />
+
+            <label for="mensaje" class="colocar_mensaje">Mensaje</label>
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                placeholder="Deja aquí tu comentario...">
+            </textarea>
+            <br />
+
+            <button type="submit" name="enviar_formulario" id="enviar">
+                <p>Enviar</p>
+            </button>
+        </form>
+    </main>
+    <hr />
+    <footer>
+        <article>
+            <section class="empresa">
+                <p>CCL FRUIT Y VEGETALES</p>
+                <p>Para más información puede enviarnos un email:
+                    <a href="mailto:gcaribe14@hotmail.com">Aquí</a>
+                </p>
+                <p>Si necesitas ayuda, llámanos al <br/> número de teléfono:
+                    <a href="tel:+34640856854" tel="+34640856854">+34 640856854</a>
+                </p>
+                <p>&copy; 2023 Rodolfo frutas y verduras </p>
+            </section>
+            <section class="direction">
+                <p>C/ La clota No 12</p>
+                <p>08290 Cerdanyola del Vallés</p>
+                <p>Barcelona</p>
+            </section>
+            <section class="galeria">
+                <a href="https://www.facebook.com/rodolfo.espinosadiaz.9" target="_blank">
+                    <img src="images/fblogo.png" title="Facebbok" alt="logo Facebbok" />
+                </a>
+                <a href="https://www.instagram.com/rodolfofyto/" target="_blank">
+                    <img src="images/logoinst.png" title="Instagram" alt="logo Instagram" />
+                </a>
+                <a href="" target="_blank">
+                    <img src="images/twlogo.png" title="Twiter" alt="logo Twiter" />
+                </a>
+                <a href="https://www.linkedin.com/in/rodolfo-espinosa-a8b582193/" target="_blank">
+                    <img src="images/linkedlogo.png" title="linkedl" alt="logo linkedl" />
+                </a>
+            </section>
+        </article>
+    </footer>
 </body>
+
 </html>

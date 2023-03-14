@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+figure>img {
+    width: 100%;
+}
+
+/*estilos del Header*/
+
+header {
+    display: flex;
+    margin: 1%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    flex-wrap: wrap;
+
+}
+
+header figure {
+    flex: 1;
+    min-width: 250px;
+}
+
+header h1 {
+    flex: 5;
+    font-size: 3vw;
+    text-align: center;
+    min-width: 200px;
+    font-family:'Fredoka One', cursive;
+    color: rgb(2, 84, 2);
+    
+}
+
+/*estilos del Nav*/
+
+nav {
+    border: solid 1px rgb(4, 4, 4);
+    padding: 1%;
+    margin: 1%;
+    background-color: #4CAF50;
+
+}
+
+nav ul {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+nav ul li {
+    border: solid 1px rgb(4, 4, 4);
+    list-style: none;
+    padding: 1%;
+    margin: 1%;
+    text-transform: uppercase;
+    min-width: 2%;
+    background-color: rgb(250, 243, 243);
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(1, 48, 1);
+    font-weight: bold;
+}
+
+/*estilos del main*/
+
+
+
+/* estilos del footer*/
+footer {
+    background-color: rgb(105, 102, 102);
+    border: solid 1px rgb(4, 4, 4);
+    text-align: end;
+    margin: 1%;
+    padding: 2%;
+}
+
+footer article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.empresa {
+    flex: 1;
+    min-width: 500px;
+}
+
+.direction{
+ flex: 1;
+ min-width: 200px;
+}
+
+.galeria{
+    flex: 1;
+    min-width: 300px;
+}
+
+footer img {
+    width: 50px;
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(229, 225, 225);
+}
+
+footer p {
+    padding: 0.3%;
+    color:  rgb(229, 225, 225);
+}
