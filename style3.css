@@ -29,9 +29,9 @@ header h1 {
     font-size: 3vw;
     text-align: center;
     min-width: 200px;
-    font-family:'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive;
     color: rgb(2, 84, 2);
-    
+
 }
 
 /*estilos del Nav*/
@@ -72,54 +72,56 @@ nav ul li:hover {
     text-transform: uppercase;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(252, 249, 249);
 }
+
 /*estilos del main*/
 
-main article{
+main article {
     margin: 1%;
     padding: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-image: url(images/cover.webp);
     background-size: cover;
     background-position: center;
 }
 
-main h1{
-    flex: 1;
+main h1 {
     font-size: 2vw;
     text-align: center;
-    min-width: 200px;
-    font-family:'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive;
     color: rgb(2, 84, 2);
 }
 
-main article form{
-    flex: 1;
+main section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section form {
     margin-top: 2%;
-    padding:2%;
-    border:1px solid #065e14;
+    padding: 2%;
+    border: 1px solid #065e14;
     text-align: left;
     width: 20%;
     background-color: #fafafa;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0px rgba(35, 232, 20, 0.2);
-    min-width: 200px;
+    min-width: 300px;
 }
 
-form *{
-    padding:0.5%;
+form * {
+    padding: 0.5%;
     margin-bottom: 8%;
 }
 
-form label{
+form label {
     font-weight: bold;
 }
 
-form button{
+form button {
     width: 30%;
     color: #065e14;
     background-color: #ecf8ed;
@@ -127,6 +129,21 @@ form button{
     font-weight: bold;
     cursor: pointer;
 }
+
+form button:hover {
+    color: rgb(247, 242, 242);
+    background-color: #043805;
+}
+
+main section img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px rgba(8, 8, 8, 0.2);
+}
+
+main section a {
+    padding: 4%;
+}
+
 
 /* estilos del footer*/
 footer {
@@ -137,7 +154,7 @@ footer {
     padding: 2%;
 }
 
-footer article{
+footer article {
     display: flex;
     flex-wrap: wrap;
 }
@@ -147,12 +164,16 @@ footer article{
     min-width: 500px;
 }
 
-.direction{
- flex: 1;
- min-width: 200px;
+footer p a:hover {
+    color: #011404;
 }
 
-.galeria{
+.direction {
+    flex: 1;
+    min-width: 200px;
+}
+
+.galeria {
     flex: 1;
     min-width: 300px;
 }
@@ -169,5 +190,5 @@ footer a {
 
 footer p {
     padding: 0.3%;
-    color:  rgb(229, 225, 225);
+    color: rgb(229, 225, 225);
 }

@@ -147,6 +147,10 @@ footer article{
     min-width: 500px;
 }
 
+footer p a:hover{
+    color: #011404;
+}
+
 .direction{
  flex: 1;
  min-width: 200px;
