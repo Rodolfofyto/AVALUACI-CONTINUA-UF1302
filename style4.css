@@ -16,10 +16,9 @@ header {
     align-items: center;
     padding: 1%;
     flex-wrap: wrap;
-
 }
 
-header figure {
+header a {
     flex: 1;
     min-width: 250px;
 }
@@ -29,9 +28,8 @@ header h1 {
     font-size: 3vw;
     text-align: center;
     min-width: 200px;
-    font-family:'Fredoka One', cursive;
+    font-family: 'Fredoka One', cursive;
     color: rgb(2, 84, 2);
-    
 }
 
 /*estilos del Nav*/
@@ -41,7 +39,6 @@ nav {
     padding: 1%;
     margin: 1%;
     background-color: #4CAF50;
-
 }
 
 nav ul {
@@ -51,14 +48,12 @@ nav ul {
 }
 
 nav ul li {
-    border: solid 1px rgb(4, 4, 4);
     list-style: none;
     padding: 1%;
     margin: 1%;
     text-transform: uppercase;
     min-width: 2%;
     background-color: rgb(250, 243, 243);
-
 }
 
 nav ul li a {
@@ -67,8 +62,39 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li:hover {
+    background-color: #065e14;
+    padding: 13px;
+    transition-duration: 5ms;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: rgb(252, 249, 249);
+}
 /*estilos del main*/
 
+main {
+    border: solid 1px black;
+    margin: 1%;
+}
+
+main article {
+    border: solid 1px black;
+    display: flex;
+}
+
+main article:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+main article figure {
+    flex: 1;
+}
+
+main article div {
+    flex: 1;
+}
 
 /* estilos del footer*/
 footer {
@@ -79,7 +105,7 @@ footer {
     padding: 2%;
 }
 
-footer article{
+footer article {
     display: flex;
     flex-wrap: wrap;
 }
@@ -89,12 +115,12 @@ footer article{
     min-width: 500px;
 }
 
-.direction{
- flex: 1;
- min-width: 200px;
+.direction {
+    flex: 1;
+    min-width: 200px;
 }
 
-.galeria{
+.galeria {
     flex: 1;
     min-width: 300px;
 }
@@ -111,5 +137,5 @@ footer a {
 
 footer p {
     padding: 0.3%;
-    color:  rgb(229, 225, 225);
+    color: rgb(229, 225, 225);
 }
