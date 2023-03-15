@@ -37,7 +37,6 @@ header h1 {
 /*estilos del Nav*/
 
 nav {
-    border: solid 1px rgb(4, 4, 4);
     padding: 1%;
     margin: 1%;
     background-color: #4CAF50;
@@ -78,7 +77,56 @@ nav ul li a:hover{
 }
 /*estilos del main*/
 
+main article{
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/cover.webp);
+    background-size: cover;
+    background-position: center;
+}
 
+main h1{
+    flex: 1;
+    font-size: 2vw;
+    text-align: center;
+    min-width: 200px;
+    font-family:'Fredoka One', cursive;
+    color: rgb(2, 84, 2);
+}
+
+main article form{
+    flex: 1;
+    margin-top: 2%;
+    padding:2%;
+    border:1px solid #065e14;
+    text-align: left;
+    width: 20%;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(35, 232, 20, 0.2);
+    min-width: 200px;
+}
+
+form *{
+    padding:0.5%;
+    margin-bottom: 8%;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form button{
+    width: 30%;
+    color: #065e14;
+    background-color: #ecf8ed;
+    padding: 2%;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 /* estilos del footer*/
 footer {

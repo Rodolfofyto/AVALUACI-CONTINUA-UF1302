@@ -35,7 +35,6 @@ header h1 {
 /*estilos del Nav*/
 
 nav {
-    border: solid 1px rgb(4, 4, 4);
     padding: 1%;
     margin: 1%;
     background-color: #4CAF50;
@@ -75,13 +74,14 @@ nav ul li a:hover{
 /*estilos del main*/
 
 main {
-    border: solid 1px black;
     margin: 1%;
 }
 
 main article {
-    border: solid 1px black;
     display: flex;
+    padding: 0.2%;
+    margin: 1%;
+    flex-wrap: wrap;
 }
 
 main article:nth-child(odd) {
@@ -90,10 +90,31 @@ main article:nth-child(odd) {
 
 main article figure {
     flex: 1;
+    margin-left:1% ;
+    min-width: 400px;
 }
 
 main article div {
     flex: 1;
+    margin-left:1%;
+    min-width: 400px;
+}
+
+main p{
+    text-align: justify;
+}
+
+main h3{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 2vw;
+    color: #065e14;
+}
+
+main figure figcaption{
+    text-align: end;
+    font-family: cursive;
+    font-size: small;
 }
 
 /* estilos del footer*/
