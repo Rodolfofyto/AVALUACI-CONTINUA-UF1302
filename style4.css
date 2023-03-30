@@ -59,6 +59,7 @@ nav ul li a {
     text-decoration: none;
     color: rgb(1, 48, 1);
     font-weight: bold;
+    width: 100%;
 }
 
 nav ul li:hover {
